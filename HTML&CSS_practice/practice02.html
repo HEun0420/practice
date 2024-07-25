@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myintro</title>
+<style>
+
+@keyframes move-text {
+    from{
+        position: relative;
+        left: -1000px;
+        opacity: 0%;
+    }
+    to{
+        position: relative;
+        left: 0px;
+        opacity: 100%;
+    }
+}
+.container{
+
+    animation: move-text 1s ease-out;
+}
+
+.text{
+    animation: move-text 5s ease-out;
+}
+
+.move1{
+    width: 100px;
+            height: 100px;
+            border-width: 3px;
+    border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+    animation: picture 6s ease-in;
+}
+.move2{
+    width: 100px;
+            height: 100px;
+            border-width: 3px;
+    border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+    animation: picture 7s ease-in;
+}
+.move3{
+    width: 100px;
+            height: 100px;
+            border-width: 3px;
+    border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+    animation: picture 8s ease-in;
+}
+@keyframes picture{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+h2{
+    color: orange;
+}
+    h1{
+        color: olive;
+    }
+    body{
+            background: #fffab0 ;
+        }
+#bg {
+
+            background-color: rgb(255, 216, 210);
+            /* 요소의 경계에 해당하는 여백을 설정 */
+            margin: 50px;
+
+            /* 콘텐츠와 요소의 경계 사이의 내부여백 설정*/l
+            padding: 50px;
+        }
+
+        .shadow {
+            text-align: center;
+            font-size: 50px;
+            line-height: 30px;
+            font-weight: 900;
+        }
+#hi{
+    text-align: center;
+    color: white;
+    text-shadow:5px 5px orange;
+}
+
+#into1{
+    border-style: groove;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+}
+</style>
+</head>
+<body>
+    <div id="bg">
+        <span id="hi" class="shadow">Introduce myself</span>
+        <div class="container">
+            <h1 class="first_line">안녕하세요.</h1>
+            <h1 class="second_line">집에 가고싶은 배하은입니다.</h1>
+        </div>
+
+        <div class="text">
+            <h2>
+                저에 대해 알고싶으신가요? <br>
+                밑의 메뉴를 클릭해서 더 알아가세요! :3
+            </h2>
+        </div>
+
+        <div id="container">
+            <div class="onePicture">
+                <img class="move1" src="sample/17495_5856_114.jpg">
+                <p>
+                    "현재는 열심히 공부하고 있는 꿈나무 입니다.📚"<br>
+                    열심히 잔디를 심는걸 목적으로 하고 있어요. 
+                </p>
+            </div>
+            <div class="onePicture">
+                <img class="move2" src="sample/img.jpg">
+                <p>
+                    "자기소개를 힘들어하는 I예요"🔔<br>
+                    제 MBTI는 INTP랍니다. 와~~ 정말...뭘 써야할지 모르겠어요. 열심히 할게요.
+                </p>
+            </div>
+            <div class="onePicture">
+                <img class="move3" src="sample/LDhXGb2H0XOmw4ldoI7FWHfhymwMiD0tsudeS7SzvgZx-mo1AdeM2F33VEpo4EHRIlo6JzIfQpRlqAynR4wgxw.webp">
+                <p>
+                    "Learning~~📒🖊"
+                    JABA / MYSQL / HTML / CSS / SPRING
+                </p>
+            </div>
+        </div>
+</body>
+</html>

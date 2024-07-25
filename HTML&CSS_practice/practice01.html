@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #756c85 ;
+        }
+        #bg {
+    
+            /* 요소의 경계에 해당하는 여백을 설정 */
+            margin: 30px;
+            /* 콘텐츠와 요소의 경계 사이의 내부여백 설정*/
+            padding: 50px;
+        }
+
+        .shadow {
+            font-size: 80px;o
+            line-height: 30px;
+            font-weight: 900;
+        }
+        #hi{
+            color: white;
+            text-shadow:5px 5px orange;
+        }
+
+        #image{
+            width: 50%;
+            height: 1600px;
+            border: 4px solid black;
+            background-image: url("sample/Lovepik_com-401038669-star.png");
+
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="bg">
+    <span id="hi" class="shadow">안녕하세요</span>
+    <div id="image"></div>
+</div>
+</body>
+</html>
