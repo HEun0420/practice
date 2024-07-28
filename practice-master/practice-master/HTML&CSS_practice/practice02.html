@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myintro</title>
+<style>
+
+@keyframes move-text {
+    from{
+        position: relative;
+        left: -1000px;
+        opacity: 0%;
+    }
+    to{
+        position: relative;
+        left: 0px;
+        opacity: 100%;
+    }
+}
+.container{
+
+    animation: move-text 1s ease-out;
+}
+
+.text{
+    animation: move-text 5s ease-out;
+}
+
+.move1{
+    width: 100px;
+            height: 100px;
+            border-width: 3px;
+    border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+    animation: picture 6s ease-in;
+}
+.move2{
+    width: 100px;
+            height: 100px;
+            border-width: 3px;
+    border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+    animation: picture 7s ease-in;
+}
+.move3{
+    width: 100px;
+            height: 100px;
+            border-width: 3px;
+    border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+    animation: picture 8s ease-in;
+}
+@keyframes picture{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+h2{
+    color: orange;
+}
+    h1{
+        color: olive;
+    }
+    body{
+            background: #fffab0 ;
+        }
+#bg {
+
+            background-color: rgb(255, 216, 210);
+            /* 요소의 경계에 해당하는 여백을 설정 */
+            margin: 50px;
+
+            /* 콘텐츠와 요소의 경계 사이의 내부여백 설정*/l
+            padding:50px;
+        }
+        
+
+        .shadow {
+            text-align: center;
+            font-size: 50px;
+            line-height: 30px;
+            font-weight: 900;
+        }
+#hi{
+    text-align: center;
+    color: white;
+    text-shadow:5px 5px orange;
+}
+
+#into1{
+    border-style: groove;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+}
+
+
+/*  */
+
+.banner_main {
+     padding: 90px 0;
+}
+
+.text-bg {
+     text-align: center;
+}
+
+.text-hangle{
+    font-family: '고딕';
+    text-align: center;
+}
+
+.text-bg h1 {
+     color: #ffffff;
+     font-size: 75px;
+     line-height: 90px;
+     padding-bottom: 40px;
+     font-weight: bold;
+}
+
+.text-bg span {
+     font-family: 'dancing script', cursive;
+     color: #fff;
+     font-size: 60px;
+     line-height: 77px;
+     font-weight: bold;
+     padding-bottom: 20px;
+     display: block;
+}
+
+.text-bg p {
+     color: #fff;
+     font-size: 17px;
+     line-height: 28px;
+     padding: 40px 0;
+}
+
+.text-bg a {
+     font-size: 17px;
+     background-color: #fff;
+     color: #dc5373;
+     padding: 13px 0px;
+     width: 100%;
+     max-width: 190px;
+     text-align: center;
+     display: inline-block;
+     transition: ease-in all 0.5s;
+}
+
+.text-bg a:hover {
+     background-color: #000;
+     color: #fff;
+     transition: ease-in all 0.5s;
+     border-radius: 26px;
+}
+
+.weare {
+     background: #fff;
+     padding-top: 90px;
+}
+
+.weare .titlepage h2 {
+     margin-bottom: 20px;
+}
+
+.weare .titlepage h2::after {
+     border-bottom: #f55171 solid 1px;
+     content: "";
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     max-width: 259px;
+     margin: 0 auto;
+}
+
+.weare .weare_box {
+     text-align: center;
+}
+
+.weare .weare_box figure {
+     margin: 0;
+}
+
+.weare .weare_box figure img {
+     border-radius: 190px;
+     background: #f55171;
+     padding: 15px;
+}
+
+.weare .weare_box p {
+     color: #000;
+     font-size: 17px;
+     line-height: 28px;
+     padding: 35px 0px;
+}
+
+.weare .weare_box .read_more {
+     background: #000;
+     color: #fff;
+}
+</style>
+</head>
+<body>
+        <section class="banner_main">
+            <div class="container">
+               <div class="row d_flex">
+                  <div class="col-md-12">
+                     <div class="text-bg">
+                        <span> Introduce Myself</span>
+                        <h1>"배하은"</h1>
+                        <a href="#">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+        <div class="text">
+            <h2>
+                저에 대해 알고싶으신가요? <br>
+            </h2>
+        </div>
+
+        <div id="container">
+            <div class="onePicture">
+                <div class="text-hangle">
+                <img class="move1" src="sample/17495_5856_114.jpg">
+                <p>
+                    "현재는 열심히 공부하고 있는 꿈나무 입니다.📚"<br>
+                    열심히 잔디를 심는걸 목적으로 하고 있어요. 
+                    <br><br><br><br>
+                </p>
+            </div>
+            <div class="onePicture">
+                <div class="text-hangle">
+                <img class="move2" src="sample/img.jpg">
+                <p>
+                    "자기소개를 힘들어하는 I예요"🔔<br>
+                    제 MBTI는 INTP랍니다. 열심히 할게요.
+                    <br><br><br><br>
+                </p>
+            </div>
+            <div class="onePicture">
+                <div class="text-hangle">
+                <img class="move3" src="sample/LDhXGb2H0XOmw4ldoI7FWHfhymwMiD0tsudeS7SzvgZx-mo1AdeM2F33VEpo4EHRIlo6JzIfQpRlqAynR4wgxw.webp">
+                <p>    
+                    "Learning~~📒🖊"<br>
+                    JABA / MYSQL / HTML / CSS / SPRING
+                </p>
+            </div>
+        </div>
+        <div class="weare">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2>What does she like??</h2>
+                        <span>Lorem ipsum dolor sit</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-10 offset-md-1">
+                     <div class="row">
+                        <div class="col-md-6 margin_boo">
+                           <div class="weare_box ">
+                              <figure><img src="sample/17495_5856_114.jpg" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="weare_box">
+                              <figure><img src="sample/img.jpg" alt="#"/></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-12">
+                     <div class="weare_box">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias neque beatae soluta vero minima ut delectus eos accusamus ipsum necessitatibus tenetur, odit ullam! At neque obcaecati similique expedita molestiae modi.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div  class="head_top">
+               <div class="container">
+                  <div class="header">
+                     <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                           <div class="full">
+                              <div class="center-desk">
+                                 <div class="logo">
+                                    <img src="sample/LDhXGb2H0XOmw4ldoI7FWHfhymwMiD0tsudeS7SzvgZx-mo1AdeM2F33VEpo4EHRIlo6JzIfQpRlqAynR4wgxw.webp" alt="#" /></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end header inner -->
+               <!-- end header -->
+               <!-- banner -->
+            
+            </div>
+</body>
+</html>
